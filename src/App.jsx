@@ -1,5 +1,6 @@
 import ErrorExample from "../starter/ErrorExample"
 import UseStateBasics from "../starter/UseStateBasics"
+import UseStateGotcha from "../starter/UseStateGotcha"
 import UserStateArray from "../starter/UserStateArray"
 import UserStateObject from "../starter/UserStateObject"
 import './index.css'
@@ -10,7 +11,8 @@ function App() {
       {/* <ErrorExample /> */}
       {/* <UseStateBasics /> */}
       {/* <UserStateArray /> */}
-       <UserStateObject/>
+       {/* <UserStateObject/> */}
+       <UseStateGotcha/>
     </div>
   )
 }
