@@ -1,8 +1,9 @@
-import ErrorExample from "../starter/ErrorExample"
-import UseStateBasics from "../starter/UseStateBasics"
-import UseStateGotcha from "../starter/UseStateGotcha"
-import UserStateArray from "../starter/UserStateArray"
-import UserStateObject from "../starter/UserStateObject"
+import CodeExample_UseEffect from "../starter-userEffect/CodeExample_UseEffect"
+import ErrorExample from "../starter-userState/ErrorExample"
+import UseStateBasics from "../starter-userState/UseStateBasics"
+import UseStateGotcha from "../starter-userState/UseStateGotcha"
+import UserStateArray from "../starter-userState/UserStateArray"
+import UserStateObject from "../starter-userState/UserStateObject"
 import './index.css'
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
       {/* <UseStateBasics /> */}
       {/* <UserStateArray /> */}
        {/* <UserStateObject/> */}
-       <UseStateGotcha/>
+       {/* <UseStateGotcha/> */}
+
+       <CodeExample_UseEffect/>
     </div>
   )
 }
