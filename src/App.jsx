@@ -1,4 +1,5 @@
 import CodeExample_UseEffect from "../starter-userEffect/CodeExample_UseEffect"
+import UseEffectBasics from "../starter-userEffect/UseEffectBasics"
 import ErrorExample from "../starter-userState/ErrorExample"
 import UseStateBasics from "../starter-userState/UseStateBasics"
 import UseStateGotcha from "../starter-userState/UseStateGotcha"
@@ -14,8 +15,8 @@ function App() {
       {/* <UserStateArray /> */}
        {/* <UserStateObject/> */}
        {/* <UseStateGotcha/> */}
-
-       <CodeExample_UseEffect/>
+       {/* <CodeExample_UseEffect/> */}
+       <UseEffectBasics/>
     </div>
   )
 }
