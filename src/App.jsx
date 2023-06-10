@@ -1,4 +1,5 @@
 import CodeExample_UseEffect from "../starter-userEffect/CodeExample_UseEffect"
+import FetxhDataExample from "../starter-userEffect/FetxhDataExample"
 import MultipleUseEffects from "../starter-userEffect/MultipleUseEffects"
 import UseEffectBasics from "../starter-userEffect/UseEffectBasics"
 import ErrorExample from "../starter-userState/ErrorExample"
@@ -18,7 +19,8 @@ function App() {
        {/* <UseStateGotcha/> */}
        {/* <CodeExample_UseEffect/> */}
        {/* <UseEffectBasics/> */}
-       <MultipleUseEffects/>
+       {/* <MultipleUseEffects/> */}
+       <FetxhDataExample/>
     </div>
   )
 }
