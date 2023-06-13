@@ -9,6 +9,7 @@ import UserStateArray from "../starter-userState/UserStateArray"
 import UserStateObject from "../starter-userState/UserStateObject"
 import Multiple_Return from "../ConditionalRendering/Multiple_Return"
 import './index.css'
+import Multiple_Return_FetchData from "../ConditionalRendering/Multiple_Return_FetchData"
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
        {/* <UseEffectBasics/> */}
        {/* <MultipleUseEffects/> */}
        {/* <FetxhDataExample/> */}
-       <Multiple_Return/>
+       {/* <Multiple_Return/> */}
+       <Multiple_Return_FetchData/>
     </div>
   )
 }
