@@ -12,6 +12,7 @@ const Multiple_Return_FetchData = () => {
             try {
                 const response = await fetch(url);
                 const user = response.json();
+                console.log(response);
                 setUser(user)
                 console.log(user);
             }
@@ -33,13 +34,15 @@ const Multiple_Return_FetchData = () => {
         return <h3> There was an error</h3>
     }
 
+    const { avatar_url, name, company, bio, id } = user;
+
     return (
         <div>
-            <img style={{ width: '200px', height: '250px', borderRadius: '30px' }}  src= " https://avatars.githubusercontent.com/u/985197?v=4 "
-        alt={user.id} />
-        <h3>{user.name}</h3>
-        <h4>{user.company}</h4>
-        <h4>{user.bio}</h4>
+            <img style={{ width: '200px', height: '250px', borderRadius: '30px' }} src= "https://avatars.githubusercontent.com/u/985197?v=4"
+                alt={id} />
+            <h3>{name}</h3>
+            <h4>{company}</h4>
+            <h4>{bio}</h4>
         </div>
     )
 }

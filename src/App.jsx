@@ -10,6 +10,7 @@ import UserStateObject from "../starter-userState/UserStateObject"
 import Multiple_Return from "../ConditionalRendering/Multiple_Return"
 import './index.css'
 import Multiple_Return_FetchData from "../ConditionalRendering/Multiple_Return_FetchData"
+import ShortCircuitOverview from "../ConditionalRendering/ShortCircuitOverview"
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
        {/* <MultipleUseEffects/> */}
        {/* <FetxhDataExample/> */}
        {/* <Multiple_Return/> */}
-       <Multiple_Return_FetchData/>
+       {/* <Multiple_Return_FetchData/> */}
+       <ShortCircuitOverview></ShortCircuitOverview>
     </div>
   )
 }
