@@ -12,6 +12,7 @@ import './index.css'
 import Multiple_Return_FetchData from "../ConditionalRendering/Multiple_Return_FetchData"
 import ShortCircuitOverview from "../ConditionalRendering/ShortCircuitOverview"
 import ShortCircuitExamples from "../ConditionalRendering/ShortCircuitExamples"
+import ToggleExample from "../ConditionalRendering/ToggleExample"
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
        {/* <Multiple_Return/> */}
        {/* <Multiple_Return_FetchData/> */}
        {/* <ShortCircuitOverview></ShortCircuitOverview> */}
-       <ShortCircuitExamples></ShortCircuitExamples>
+       {/* <ShortCircuitExamples></ShortCircuitExamples> */}
+       <ToggleExample/>
     </div>
   )
 }
