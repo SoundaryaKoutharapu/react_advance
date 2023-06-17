@@ -13,6 +13,7 @@ import Multiple_Return_FetchData from "../ConditionalRendering/Multiple_Return_F
 import ShortCircuitOverview from "../ConditionalRendering/ShortCircuitOverview"
 import ShortCircuitExamples from "../ConditionalRendering/ShortCircuitExamples"
 import ToggleExample from "../ConditionalRendering/ToggleExample"
+import UserChallenge from "../ConditionalRendering/UserChallenge"
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
        {/* <Multiple_Return_FetchData/> */}
        {/* <ShortCircuitOverview></ShortCircuitOverview> */}
        {/* <ShortCircuitExamples></ShortCircuitExamples> */}
-       <ToggleExample/>
+       {/* <ToggleExample/> */}
+       <UserChallenge/>
     </div>
   )
 }
