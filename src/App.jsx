@@ -14,6 +14,7 @@ import ShortCircuitOverview from "../ConditionalRendering/ShortCircuitOverview"
 import ShortCircuitExamples from "../ConditionalRendering/ShortCircuitExamples"
 import ToggleExample from "../ConditionalRendering/ToggleExample"
 import UserChallenge from "../ConditionalRendering/UserChallenge"
+import UserEffectCleanUp from "../starter-userEffect/UserEffectCleanUp"
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
        {/* <ShortCircuitOverview></ShortCircuitOverview> */}
        {/* <ShortCircuitExamples></ShortCircuitExamples> */}
        {/* <ToggleExample/> */}
-       <UserChallenge/>
+       {/* <UserChallenge/> */}
+       <UserEffectCleanUp/>
     </div>
   )
 }
