@@ -16,6 +16,8 @@ import ToggleExample from "../ConditionalRendering/ToggleExample"
 import UserChallenge from "../ConditionalRendering/UserChallenge"
 import UserEffectCleanUp from "../starter-userEffect/UserEffectCleanUp"
 
+import { Home, About } from "./pages"
+
 function App() {
   return (
     <div className="container">
@@ -34,7 +36,9 @@ function App() {
        {/* <ShortCircuitExamples></ShortCircuitExamples> */}
        {/* <ToggleExample/> */}
        {/* <UserChallenge/> */}
-       <UserEffectCleanUp/>
+       {/* <UserEffectCleanUp/> */}    
+       <Home/>
+       <About/>
     </div>
   )
 }
