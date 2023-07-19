@@ -17,6 +17,7 @@ import UserChallenge from "../ConditionalRendering/UserChallenge"
 import UserEffectCleanUp from "../starter-userEffect/UserEffectCleanUp"
 
 import { Home, About } from "./pages"
+import List from "./leverage-javascript/List"
 
 function App() {
   return (
@@ -37,8 +38,9 @@ function App() {
        {/* <ToggleExample/> */}
        {/* <UserChallenge/> */}
        {/* <UserEffectCleanUp/> */}    
-       <Home/>
-       <About/>
+       {/* <Home/>
+       <About/> */}
+       <List></List>
     </div>
   )
 }
