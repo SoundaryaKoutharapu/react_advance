@@ -18,6 +18,7 @@ import UserEffectCleanUp from "../starter-userEffect/UserEffectCleanUp"
 
 import { Home, About } from "./pages"
 import List from "./leverage-javascript/List"
+import ControlledInputs from "./ControlledInputs"
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
        {/* <UserEffectCleanUp/> */}    
        {/* <Home/>
        <About/> */}
-       <List></List>
+       {/* <List></List> */}
+       <ControlledInputs/>
     </div>
   )
 }
